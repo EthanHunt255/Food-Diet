@@ -8,9 +8,9 @@ body{
     max-height: 100%;
     margin: auto;
     background: white;
-    padding: 10px;   
+    text-transform: capitalize;
 }
-p{
+.p-style{
     color: rgba(87, 87, 87, 0.603);
     font-weight: 900;
     text-transform: capitalize;
@@ -21,7 +21,7 @@ h1{
     padding-top: 120px;
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(87,87,87); 
 }
 h3{
@@ -36,9 +36,10 @@ h4{
 .orange-color{
     color: rgb(252,136,70);
 }
-section{
+.section-container{
     display: flex;
     margin: 150;
+    padding-bottom: 80px;
 }
 .half1{
     width: 50%;
@@ -71,11 +72,102 @@ section{
 }
 .half2{
     width: 50%;
+    padding-top: 5%;
     padding-bottom: 1%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .half2 img{
-    width: 75%;
-    padding-top: 3%;
+    width: 100%;
     padding-left: 17%;
+}
+.half3{
+    width: 50%;
+    padding: 3%;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 7%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 50px;
+}
+.half3 img{
+    border-radius: 30px;
+    width: 100%;
+    padding: 1%;
+}
+.text-ali{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.Featured-Recipes{
+    display: flex; 
+}
+.half4{
+    line-height: 0.1;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+.box{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 50px;
+}
+.bold{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+}
+.foot{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-top: 105px;
+    margin-bottom: 0px;
+    text-align: center;
+    background: rgb(11,13,23);
+    
+}
+.text{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.food{
+    font-size: 40px;
+    color: rgb(87,87,87);
+    font-weight: 700;
+}
+.navbar {
+  width: 100%;
+  background-color: rgb(255, 94, 0);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: rgb(87,87,87);
+}
+
+.active {
+  background-color: rgba(220, 20, 60, 0.637);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
