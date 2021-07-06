@@ -138,31 +138,41 @@ h4{
     text-align: center;
     color: white;
 }
+.text2{
+    font-size: 16px;
+    font-weight: 700;
+    color:cornsilk; 
+}
+.text3{
+    font-size: 40px;
+    color: rgb(255, 94, 0);
+    font-weight: 700;
+}
 .food{
     font-size: 40px;
     color: rgb(87,87,87);
     font-weight: 700;
 }
 .navbar {
-  width: 100%;
-  background-color: rgb(255, 94, 0);
-  overflow: auto;
+    width: 100%;
+    background-color: rgb(255, 94, 0);
+    overflow: auto;
 }
 
 .navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .navbar a:hover {
-  background-color: rgb(87,87,87);
+    background-color: rgb(87,87,87);
 }
 
 .active {
-  background-color: rgba(220, 20, 60, 0.637);
+    background-color: rgba(220, 20, 60, 0.637);
 }
 
 @media screen and (max-width: 500px) {
@@ -170,4 +180,57 @@ h4{
     float: none;
     display: block;
   }
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(201, 82, 36, 0.411);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(255, 94, 0);
+}
+
+input[type=reset] {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: rgb(255, 94, 0);
+}
+.container {
+    border-radius: 5px;
+    padding: 50px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.field{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-top: 105px;
+    margin-bottom: 0px;
+    text-align: center;
+    background: white;
+    background-image: url(images/food/Project-Cover5.png);
+    background-repeat: no-repeat;
 }
